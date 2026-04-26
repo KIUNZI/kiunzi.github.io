@@ -1,71 +1,51 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <title>Kiunzi</title>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kiunzi</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Kiunzi demo projects" />
+  <body>
+    <header class="page-header">
+      <h1>Kiunzi</h1>
+      <p class="subtitle">
+        Demo and exploratory projects hosted on GitHub Pages
+      </p>
+    </header>
 
-  <style>
-    body {
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-                   Roboto, Helvetica, Arial, sans-serif;
-      margin: 3rem auto;
-      max-width: 720px;
-      line-height: 1.6;
-      padding: 0 1rem;
-      color: #222;
-    }
+    <main class="container">
 
-    h1 {
-      font-size: 2.2rem;
-      margin-bottom: 0.5rem;
-    }
+      <section>
+        <h2>Projects</h2>
 
-    ul {
-      padding-left: 1.2rem;
-    }
+        <ul class="card-grid">
+          <li class="card">
+            <a href="/movies/">
+              <span class="card-title">Movies</span>
+              <span class="card-meta">
+                Demo application and UI experiments
+              </span>
+            </a>
+          </li>
 
-    a {
-      color: #0066cc;
-      text-decoration: none;
-    }
+          <!-- Add more project cards here -->
+        </ul>
+      </section>
 
-    a:hover {
-      text-decoration: underline;
-    }
+    </main>
 
-    footer {
-      margin-top: 3rem;
-      font-size: 0.9rem;
-      color: #666;
-    }
-  </style>
-</head>
+    <footer>
+      <p>
+        Hosted on GitHub Pages ·
+        <time id="ts"></time>
+      </p>
+    </footer>
 
-<body>
-  <header>
-    <h1>Kiunzi</h1>
-    <p>Demo and exploratory projects.</p>
-  </header>
-
-  <main>
-    <h2>Projects</h2>
-    <ul>
-      <li>
-        <a href="/movies/">Movies</a>
-      </li>
-      <li>
-        <a href="/utilities/">Utilies</a>
-      </li>
-    </ul>
-  </main>
-
-  <footer>
-    <p>
-      Hosted on <a href="https://pages.github.com/">GitHub Pages</a>.
-    </p>
-  </footer>
-</body>
+    <script>
+      document.getElementById("ts").textContent =
+        new Date().toISOString().replace("T", " ").replace("Z", " UTC");
+    </script>
+  </body>
 </html>
