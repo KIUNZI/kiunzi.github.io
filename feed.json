@@ -9,22 +9,5 @@
         "name": "Jason Marston"
     },
     "items": [
-        {
-            "id": "https://kiunzi.demo.jasonmarston.co.uk/blog/coming-soon/",
-            "url": "https://kiunzi.demo.jasonmarston.co.uk/blog/coming-soon/",
-            "title": "Coming Soon",
-            "summary": "Coming soon",
-            "content_html": "<p>Coming soon</p>",
-            "author": {
-                "name": "Jason Marston"
-            },
-            "tags": [
-                   "Quarkus",
-                   "Microservices",
-                   "Java"
-            ],
-            "date_published": "2026-04-27T18:39:55+01:00",
-            "date_modified": "2026-04-27T18:39:55+01:00"
-        }
     ]
 }
