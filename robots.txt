@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://kiunzi.demo.jasonmarston.co.uk/sitemap.xml
+Sitemap: https://kiunzi.jasonmarston.co.uk/sitemap.xml

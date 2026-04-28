@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="https://kiunzi.demo.jasonmarston.co.uk/sitemap.xsl"?>
+<?xml-stylesheet type="text/xsl" href="https://kiunzi.jasonmarston.co.uk/sitemap.xsl"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 <url>
-<loc>https://kiunzi.demo.jasonmarston.co.uk/</loc>
+<loc>https://kiunzi.jasonmarston.co.uk/</loc>
 </url>
 <url>
-<loc>https://kiunzi.demo.jasonmarston.co.uk/blog/coming-soon/</loc>
+<loc>https://kiunzi.jasonmarston.co.uk/blog/coming-soon/</loc>
 <lastmod>2026-04-27T19:00:15+01:00</lastmod>
 </url>
 <url>
-<loc>https://kiunzi.demo.jasonmarston.co.uk/about/</loc>
+<loc>https://kiunzi.jasonmarston.co.uk/about/</loc>
 <lastmod>2026-04-27T17:07:53+01:00</lastmod>
 </url>
 </urlset>
