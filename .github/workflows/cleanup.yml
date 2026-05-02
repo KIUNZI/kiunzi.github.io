@@ -1,0 +1,24 @@
+name: Cleanup deployments
+
+on:
+  push:
+    branches:
+      - main   # or whatever branch Publii pushes to
+  workflow_dispatch:
+
+permissions:
+  deployments: write
+  contents: read
+
+jobs:
+  cleanup:
+    name: Cleanup deployments
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Clean up GitHub Pages deployments
+        uses: strumwolf/delete-deployment-environment@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          environment: github-pages
+          onlyRemoveDeployments: true
